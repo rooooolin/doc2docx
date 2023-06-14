@@ -5,7 +5,7 @@ a sample script for convert .doc to .docx on windows
 
 
 ```
-python doc2docx /folder/to/.doc
+python doc2docx.py /folder/to/.doc
 ```
 
 #### Note
