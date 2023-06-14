@@ -7,7 +7,7 @@ def find_files(dir_path, file_ext=[".doc"]):
     file_list = []
     for root, dirs, files in os.walk(dir_path):
         for filename in files:
-            if any(filename.endswith(ext) for ext in file_ext)  and not os.path.basename(filename).startswith('~$'):
+            if any(filename.endswith(ext) for ext in file_ext) and not os.path.basename(filename).startswith('~$'):
                     file_list.append(os.path.join(root, filename))
     return file_list
 
