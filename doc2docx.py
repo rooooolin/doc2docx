@@ -3,7 +3,7 @@ import os
 import win32com.client as win32
 import argparse
 
-def find_files(dir_path, file_ext=["docx"]):
+def find_files(dir_path, file_ext=[".doc"]):
     file_list = []
     for root, dirs, files in os.walk(dir_path):
         for filename in files:
