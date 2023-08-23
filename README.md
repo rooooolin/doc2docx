@@ -1,5 +1,5 @@
 
-a sample script for convert .doc to .docx on windows
+a sample script for convert .doc to .docx on windows with multiprocesser
 
 ## Usage
 
